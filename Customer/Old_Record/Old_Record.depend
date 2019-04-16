@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1491315006 source:e:\cp project_final\md5.cpp
+	"md5.h"
+	<cstdio>
+
+1491398332 e:\cp project_final\md5.h
+	<cstring>
+	<iostream>
+
+1495715793 source:e:\cp project_final\customer\old_record\main.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<mysql.h>
+	<cstring>
+	<ctype.h>
+	"md5.h"
+
+1476098733 e:\cp project_final\cp project files\mysqlheaders\mysqlheaders\mysql.h
+	<sys/types.h>
+	<winsock.h>
+	"mysql_com.h"
+	"mysql_time.h"
+	"mysql_version.h"
+	"typelib.h"
+	"my_list.h"
+	"my_alloc.h"
+
+1476098746 e:\cp project_final\cp project files\mysqlheaders\mysqlheaders\mysql_com.h
+
+1476098772 e:\cp project_final\cp project files\mysqlheaders\mysqlheaders\mysql_time.h
+
+1476098783 e:\cp project_final\cp project files\mysqlheaders\mysqlheaders\mysql_version.h
+	<custom_conf.h>
+
+1476098923 e:\cp project_final\cp project files\mysqlheaders\mysqlheaders\typelib.h
+
+1476098968 e:\cp project_final\cp project files\mysqlheaders\mysqlheaders\my_list.h
+
+1476098977 e:\cp project_final\cp project files\mysqlheaders\mysqlheaders\my_alloc.h
+

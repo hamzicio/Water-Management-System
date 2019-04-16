@@ -1,0 +1,30 @@
+time_t now = time(0);
+
+//cout << "Number of sec since January 1,1970:" << now << endl;
+
+tm *ltm = localtime(&now);
+//cout<<endl<<ltm->tm_year<<endl;
+
+int second=1900 + ltm->tm_year;
+
+
+
+
+int int_month=1 + ltm->tm_mon;
+int int_day=ltm->tm_mday;
+
+string year=to_string(second);
+string month=to_string(int_month);
+string day=to_string(int_day);
+
+if(stoi(month)<10){
+month="0"+month;
+}
+
+if(stoi(day)<10){
+day="0"+day;
+}
+
+string new_date=year+"-"+month+"-"+day;
+
+

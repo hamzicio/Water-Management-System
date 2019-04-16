@@ -1,0 +1,3 @@
+Customer obj(0,"cp_project","182.50.132.112","aliakber123",0,0,"aliakber",0);
+
+cout<<"Sorry, Internet Connection Not available. Please try again!"<<endl;
